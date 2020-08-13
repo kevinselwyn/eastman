@@ -58,7 +58,7 @@ static void usage(char *exec) {
 
 	length = (int)strlen(exec) + 7;
 
-	printf("Usage: %s -c [\"<date>\"]\n", exec);
+	printf("Usage: %s -d [\"<date>\"]\n", exec);
 	printf("%*s -h\n", length, " ");
 }
 

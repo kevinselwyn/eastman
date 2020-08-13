@@ -1,21 +1,21 @@
-#eastman
+# eastman
 
 Converts dates in the Gregorian calendar to their equivalents in the International Fixed Calendar
 
-##Installation
+## Installation
 
 ```bash
 make && sudo make install
 ```
 
-##Usage
+## Usage
 
 ```bash
-Usage: ./eastman -c ["<date>"]
+Usage: ./eastman -d ["<date>"]
                  -h
 ```
 
-##Explanation
+## Explanation
 
 The International Fixed Calendar is a revised calendar that consists of 13 months, each consisting of exactly 28 days, or 4 weeks, with individual standalone days for Leap Day and Year Day, Gregorian June 17 on Leap Years and Gregorian December 31 respectively.
 
